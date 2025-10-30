@@ -29,17 +29,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="fixed top-0 z-50 flex justify-end w-full gap-4 p-4">
-          <Button asChild size="icon" aria-label="Github">
-            <a
-              href="https://github.com"
-              target="_blank"
-              referrerPolicy="no-referrer"
-            >
-              <Github />
-            </a>
-          </Button>
-        </header>
         <main>{children}</main>
       </body>
     </html>
