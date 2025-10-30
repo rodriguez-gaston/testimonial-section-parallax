@@ -15,7 +15,7 @@ export const Column = ({ testimonials, y, className }: ColumnProps) => {
   return (
     <motion.div
       className={cn(
-        "relative h-full w-1/4 min-w-64 flex flex-col gap-4 column",
+        "relative h-full w-1/4 min-w-44 md:min-w-64 flex flex-col gap-4 column",
         className
       )}
       style={{ y }}

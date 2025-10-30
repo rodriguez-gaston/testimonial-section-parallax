@@ -12,7 +12,7 @@ export const Card = ({ src, name, rating, quote }: Testimonial) => {
         </Avatar>
         <p className="text-sm font-semibold">{name}</p>
       </div>
-      <p>&ldquo;{quote}&rdquo;</p>
+      <p className="text-sm md:text-base">&ldquo;{quote}&rdquo;</p>
       <div className="flex gap-1">
         {[...Array(rating)].map((_, index) => (
           <Star size={16} key={index} className="fill-primary stroke-primary" />
